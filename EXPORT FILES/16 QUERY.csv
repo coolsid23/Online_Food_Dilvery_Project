@@ -1,0 +1,2 @@
+"Table","Non_unique","Key_name","Seq_in_index","Column_name","Collation","Cardinality","Sub_part","Packed","Null","Index_type","Comment","Index_comment","Visible","Expression"
+"orders",1,"idx_order_date",1,"order_date","A","338","","","YES","BTREE","","","YES",""

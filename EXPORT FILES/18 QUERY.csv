@@ -1,0 +1,2 @@
+"Table","Non_unique","Key_name","Seq_in_index","Column_name","Collation","Cardinality","Sub_part","Packed","Null","Index_type","Comment","Index_comment","Visible","Expression"
+"restaurants",1,"idx_restaurant_name",1,"restaurant_name","A","300","","","","BTREE","","","YES",""

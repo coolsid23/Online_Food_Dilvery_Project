@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "darkMode": true,
+  "gridEnabling": false,
+  "detailLevel": "All",
+  "tablePositions": [
+    {
+      "name": "customers",
+      "schemaName": "public",
+      "x": 260.3333061835855,
+      "y": 272.26058736177146
+    },
+    {
+      "name": "restaurants",
+      "schemaName": "public",
+      "x": 563.8232238249404,
+      "y": 563.5074207319897
+    },
+    {
+      "name": "delivery_agents",
+      "schemaName": "public",
+      "x": 277.1726058162463,
+      "y": 13.042824175002607
+    },
+    {
+      "name": "orders",
+      "schemaName": "public",
+      "x": 558.9423617743464,
+      "y": 176.26058736177146
+    },
+    {
+      "name": "order_item",
+      "schemaName": "public",
+      "x": 946.9538886706151,
+      "y": 325.19571985566085
+    }
+  ],
+  "tableGroupCollapseStates": [],
+  "stickyNoteLayouts": [],
+  "referencePaths": []
+}

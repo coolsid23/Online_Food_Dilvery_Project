@@ -1,0 +1,47 @@
+Table customers {
+  customer_id int [pk]
+  name varchar
+  city varchar
+  signup_date date
+  gender varchar
+}
+
+Table restaurants {
+  restaurant_id int [pk]
+  restaurant_name varchar
+  city varchar
+  cuisine varchar
+  rating decimal
+}
+
+Table delivery_agents {
+  agent_id int [pk]
+  agent_name varchar
+  city varchar
+  joining_date date
+  rating decimal
+}
+
+Table orders {
+  order_id int [pk]
+  customer_id int
+  restaurant_id int
+  order_date datetime
+  order_amount decimal
+  discount decimal
+  payment_method varchar
+  delivery_time int
+}
+
+Table order_item {
+  order_item_id int [pk]
+  order_id int
+  item_name varchar
+  quantity int
+  price decimal
+}
+
+/* Relationships */
+Ref: orders.customer_id > customers.customer_id
+Ref: orders.restaurant_id > restaurants.restaurant_id
+Ref: order_item.order_id > orders.order_id
