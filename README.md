@@ -139,8 +139,64 @@ Note: The dataset and project instructions are provided in the SQL_Project_file.
    The  foreign keys and primary keys are required to  established for showing relationships between the table and ER models for our work, It is good to have those     for learning.
 ### Installation
 
-   Install VSCode if you don't have or else if you have install VSCode then 
+   Tools Used:
 
-    
+   1. MySQL – Database management system
+   2. VS Code – Query development environment
+   3. SQLTools Extension (VS Code) – Connected and executed MySQL queries
+   4. VSCode-DBML Extension – Designed and visualized the ER diagram
 
+  Process Followed:
 
+  1. Created the database and tables in MySQL using SQL scripts written in VS Code.
+  2. Connected MySQL to VS Code using the SQLTools extension to run and test queries.
+  3. Designed the ER model using DBML in VS Code to define relationships between tables.
+  4. Implemented primary and foreign keys to maintain relational integrity.
+  5. Executed analytical SQL queries to generate business insights (revenue, orders, performance metrics).
+
+ 📌 One-Line Summary
+
+Developed and executed a relational food delivery database in MySQL using VS Code (SQLTools) and designed the ER model using VSCode-DBML.
+
+### Tasks To Do
+
+ PHASE 1 —EXPLORATORY ANALYSIS
+The company wants to know:
+1.Total Revenue
+2. Total Orders Per City
+3. Top 10 Customers by Spending
+
+ PHASE 2 — CUSTOMER SEGMENTATION
+1. Customer Category (Gold/Silver/Bronze)
+
+ PHASE 3 — RESTAURANT PERFORMANCE
+ 1. Top 10 Restaurants by Revenue
+ 2. Average Rating vs Revenue
+  
+ PHASE 4 — DELIVERY ANALYSIS
+ 1. Average Delivery Time Per City
+ 2. Late Deliveries (Above 45 Minutes)
+
+ PHASE 5 — PAYMENT & DISCOUNT ANALYSIS
+ 1. Payment Method Distribution
+ 2. Discount Impact on Revenue
+
+ PHASE 6 — ADVANCED SQL
+ 1. Monthly Revenue Using CTE
+ 2. Rank Restaurants by Revenue (Window Function)
+ 3. Above Average Revenue Restaurants (Subquery)
+
+ PHASE 7 — DATABASE OBJECTS
+  1. Create Revenue View
+  2. Stored Procedure: Get Top N Restaurant
+
+PHASE 8-- Performance Optimization
+1. Index on order_date (for monthly reports)
+2. Index on customer_name (for joins)
+3. Index on restaurant_name
+ 
+PHASE 9 —Automation Logic
+1. TRIGGER 1 — Prevent Negative Discount
+2. TRIGGER 2 — Delivery Delay Warning
+
+Note: All task-related SQL queries are included in the exported files.
